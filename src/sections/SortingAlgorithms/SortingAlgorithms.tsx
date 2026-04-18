@@ -66,21 +66,21 @@ import ShellSortCPP from '@code/cpp/sorting_algorithms/shell_sort.cpp?raw'
 import SleepSortCPP from '@code/cpp/sorting_algorithms/sleep_sort.cpp?raw'
 import TimSortCPP from '@code/cpp/sorting_algorithms/tim_sort.cpp?raw'
 
-import BogoSortRuby from '@code/ruby/sorting_algorithms/bogo_sort.rb?raw'
-import BubbleSortRuby from '@code/ruby/sorting_algorithms/bubble_sort.rb?raw'
-import BucketSortRuby from '@code/ruby/sorting_algorithms/bucket_sort.rb?raw'
-import CountingSortRuby from '@code/ruby/sorting_algorithms/counting_sort.rb?raw'
-import CubeSortRuby from '@code/ruby/sorting_algorithms/cube_sort.rb?raw'
-import HeapSortRuby from '@code/ruby/sorting_algorithms/heap_sort.rb?raw'
-import InsertionSortRuby from '@code/ruby/sorting_algorithms/insertion_sort.rb?raw'
-import MergeSortRuby from '@code/ruby/sorting_algorithms/merge_sort.rb?raw'
-import PancakeSortRuby from '@code/ruby/sorting_algorithms/pancake_sort.rb?raw'
-import QuickSortRuby from '@code/ruby/sorting_algorithms/quick_sort.rb?raw'
-import RadixSortRuby from '@code/ruby/sorting_algorithms/radix_sort.rb?raw'
-import SelectionSortRuby from '@code/ruby/sorting_algorithms/selection_sort.rb?raw'
-import ShellSortRuby from '@code/ruby/sorting_algorithms/shell_sort.rb?raw'
-import SleepSortRuby from '@code/ruby/sorting_algorithms/sleep_sort.rb?raw'
-import TimSortRuby from '@code/ruby/sorting_algorithms/tim_sort.rb?raw'
+import BogoSortRUBY from '@code/ruby/sorting_algorithms/bogo_sort.rb?raw'
+import BubbleSortRUBY from '@code/ruby/sorting_algorithms/bubble_sort.rb?raw'
+import BucketSortRUBY from '@code/ruby/sorting_algorithms/bucket_sort.rb?raw'
+import CountingSortRUBY from '@code/ruby/sorting_algorithms/counting_sort.rb?raw'
+import CubeSortRUBY from '@code/ruby/sorting_algorithms/cube_sort.rb?raw'
+import HeapSortRUBY from '@code/ruby/sorting_algorithms/heap_sort.rb?raw'
+import InsertionSortRUBY from '@code/ruby/sorting_algorithms/insertion_sort.rb?raw'
+import MergeSortRUBY from '@code/ruby/sorting_algorithms/merge_sort.rb?raw'
+import PancakeSortRUBY from '@code/ruby/sorting_algorithms/pancake_sort.rb?raw'
+import QuickSortRUBY from '@code/ruby/sorting_algorithms/quick_sort.rb?raw'
+import RadixSortRUBY from '@code/ruby/sorting_algorithms/radix_sort.rb?raw'
+import SelectionSortRUBY from '@code/ruby/sorting_algorithms/selection_sort.rb?raw'
+import ShellSortRUBY from '@code/ruby/sorting_algorithms/shell_sort.rb?raw'
+import SleepSortRUBY from '@code/ruby/sorting_algorithms/sleep_sort.rb?raw'
+import TimSortRUBY from '@code/ruby/sorting_algorithms/tim_sort.rb?raw'
 
 export default function Stack() {
     return (
@@ -92,7 +92,7 @@ export default function Stack() {
                     <Tabs.Tab code={BubbleSortJS} language="javascript" />
                     <Tabs.Tab code={BubbleSortJAVA} language="java" />
                     <Tabs.Tab code={BubbleSortCPP} language="cpp" />
-                    <Tabs.Tab code={BubbleSortRuby} language="ruby" />
+                    <Tabs.Tab code={BubbleSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-selection">
@@ -101,7 +101,7 @@ export default function Stack() {
                     <Tabs.Tab code={SelectionSortJS} language="javascript" />
                     <Tabs.Tab code={SelectionSortJAVA} language="java" />
                     <Tabs.Tab code={SelectionSortCPP} language="cpp" />
-                    <Tabs.Tab code={SelectionSortRuby} language="ruby" />
+                    <Tabs.Tab code={SelectionSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-insertion">
@@ -110,7 +110,7 @@ export default function Stack() {
                     <Tabs.Tab code={InsertionSortJS} language="javascript" />
                     <Tabs.Tab code={InsertionSortJAVA} language="java" />
                     <Tabs.Tab code={InsertionSortCPP} language="cpp" />
-                    <Tabs.Tab code={InsertionSortRuby} language="ruby" />
+                    <Tabs.Tab code={InsertionSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-shell">
@@ -119,7 +119,7 @@ export default function Stack() {
                     <Tabs.Tab code={ShellSortJS} language="javascript" />
                     <Tabs.Tab code={ShellSortJAVA} language="java" />
                     <Tabs.Tab code={ShellSortCPP} language="cpp" />
-                    <Tabs.Tab code={ShellSortRuby} language="ruby" />
+                    <Tabs.Tab code={ShellSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-merge">
@@ -128,7 +128,7 @@ export default function Stack() {
                     <Tabs.Tab code={MergeSortJS} language="javascript" />
                     <Tabs.Tab code={MergeSortJAVA} language="java" />
                     <Tabs.Tab code={MergeSortCPP} language="cpp" />
-                    <Tabs.Tab code={MergeSortRuby} language="ruby" />
+                    <Tabs.Tab code={MergeSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-quick">
@@ -137,7 +137,7 @@ export default function Stack() {
                     <Tabs.Tab code={QuickSortJS} language="javascript" />
                     <Tabs.Tab code={QuickSortJAVA} language="java" />
                     <Tabs.Tab code={QuickSortCPP} language="cpp" />
-                    <Tabs.Tab code={QuickSortRuby} language="ruby" />
+                    <Tabs.Tab code={QuickSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-tim">
@@ -146,7 +146,7 @@ export default function Stack() {
                     <Tabs.Tab code={TimSortJS} language="javascript" />
                     <Tabs.Tab code={TimSortJAVA} language="java" />
                     <Tabs.Tab code={TimSortCPP} language="cpp" />
-                    <Tabs.Tab code={TimSortRuby} language="ruby" />
+                    <Tabs.Tab code={TimSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-heap">
@@ -155,7 +155,7 @@ export default function Stack() {
                     <Tabs.Tab code={HeapSortJS} language="javascript" />
                     <Tabs.Tab code={HeapSortJAVA} language="java" />
                     <Tabs.Tab code={HeapSortCPP} language="cpp" />
-                    <Tabs.Tab code={HeapSortRuby} language="ruby" />
+                    <Tabs.Tab code={HeapSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-counting">
@@ -164,7 +164,7 @@ export default function Stack() {
                     <Tabs.Tab code={CountingSortJS} language="javascript" />
                     <Tabs.Tab code={CountingSortJAVA} language="java" />
                     <Tabs.Tab code={CountingSortCPP} language="cpp" />
-                    <Tabs.Tab code={CountingSortRuby} language="ruby" />
+                    <Tabs.Tab code={CountingSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-bucket">
@@ -173,7 +173,7 @@ export default function Stack() {
                     <Tabs.Tab code={BucketSortJS} language="javascript" />
                     <Tabs.Tab code={BucketSortJAVA} language="java" />
                     <Tabs.Tab code={BucketSortCPP} language="cpp" />
-                    <Tabs.Tab code={BucketSortRuby} language="ruby" />
+                    <Tabs.Tab code={BucketSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-radix">
@@ -182,7 +182,7 @@ export default function Stack() {
                     <Tabs.Tab code={RadixSortJS} language="javascript" />
                     <Tabs.Tab code={RadixSortJAVA} language="java" />
                     <Tabs.Tab code={RadixSortCPP} language="cpp" />
-                    <Tabs.Tab code={RadixSortRuby} language="ruby" />
+                    <Tabs.Tab code={RadixSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-cube">
@@ -191,7 +191,7 @@ export default function Stack() {
                     <Tabs.Tab code={CubeSortJS} language="javascript" />
                     <Tabs.Tab code={CubeSortJAVA} language="java" />
                     <Tabs.Tab code={CubeSortCPP} language="cpp" />
-                    <Tabs.Tab code={CubeSortRuby} language="ruby" />
+                    <Tabs.Tab code={CubeSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-bogo">
@@ -200,7 +200,7 @@ export default function Stack() {
                     <Tabs.Tab code={BogoSortJS} language="javascript" />
                     <Tabs.Tab code={BogoSortJAVA} language="java" />
                     <Tabs.Tab code={BogoSortCPP} language="cpp" />
-                    <Tabs.Tab code={BogoSortRuby} language="ruby" />
+                    <Tabs.Tab code={BogoSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-pancake">
@@ -209,7 +209,7 @@ export default function Stack() {
                     <Tabs.Tab code={PancakeSortJS} language="javascript" />
                     <Tabs.Tab code={PancakeSortJAVA} language="java" />
                     <Tabs.Tab code={PancakeSortCPP} language="cpp" />
-                    <Tabs.Tab code={PancakeSortRuby} language="ruby" />
+                    <Tabs.Tab code={PancakeSortRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="sort-sleep">
@@ -218,7 +218,7 @@ export default function Stack() {
                     <Tabs.Tab code={SleepSortJS} language="javascript" />
                     <Tabs.Tab code={SleepSortJAVA} language="java" />
                     <Tabs.Tab code={SleepSortCPP} language="cpp" />
-                    <Tabs.Tab code={SleepSortRuby} language="ruby" />
+                    <Tabs.Tab code={SleepSortRUBY} language="ruby" />
                 </Tabs>
             </section>
         </div>

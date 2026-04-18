@@ -38,14 +38,14 @@ import KahnCPP from '@code/cpp/graph/kahn.cpp?raw'
 import KruskalCPP from '@code/cpp/graph/kruskal.cpp?raw'
 import PrimCPP from '@code/cpp/graph/prim.cpp?raw'
 
-import DFSrecursiveRuby from '@code/ruby/graph/dfs_recursive.rb?raw'
-import DFSiterativeRuby from '@code/ruby/graph/dfs_iterative.rb?raw'
-import BFSRuby from '@code/ruby/graph/bfs.rb?raw'
-import DijkstraRuby from '@code/ruby/graph/dijkstra.rb?raw'
-import BellmanFordRuby from '@code/ruby/graph/bellman_ford.rb?raw'
-import KahnRuby from '@code/ruby/graph/kahn.rb?raw'
-import KruskalRuby from '@code/ruby/graph/kruskal.rb?raw'
-import PrimRuby from '@code/ruby/graph/prim.rb?raw'
+import DFSrecursiveRUBY from '@code/ruby/graph/dfs_recursive.rb?raw'
+import DFSiterativeRUBY from '@code/ruby/graph/dfs_iterative.rb?raw'
+import BFSRUBY from '@code/ruby/graph/bfs.rb?raw'
+import DijkstraRUBY from '@code/ruby/graph/dijkstra.rb?raw'
+import BellmanFordRUBY from '@code/ruby/graph/bellman_ford.rb?raw'
+import KahnRUBY from '@code/ruby/graph/kahn.rb?raw'
+import KruskalRUBY from '@code/ruby/graph/kruskal.rb?raw'
+import PrimRUBY from '@code/ruby/graph/prim.rb?raw'
 
 export default function Graph() {
     return (
@@ -57,7 +57,7 @@ export default function Graph() {
                     <Tabs.Tab code={DFSrecursiveJS} language="javascript" />
                     <Tabs.Tab code={DFSrecursiveJAVA} language="java" />
                     <Tabs.Tab code={DFSrecursiveCPP} language="cpp" />
-                    <Tabs.Tab code={DFSrecursiveRuby} language="ruby" />
+                    <Tabs.Tab code={DFSrecursiveRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-dfs-iterative">
@@ -66,7 +66,7 @@ export default function Graph() {
                     <Tabs.Tab code={DFSiterativeJS} language="javascript" />
                     <Tabs.Tab code={DFSiterativeJAVA} language="java" />
                     <Tabs.Tab code={DFSiterativeCPP} language="cpp" />
-                    <Tabs.Tab code={DFSiterativeRuby} language="ruby" />
+                    <Tabs.Tab code={DFSiterativeRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-bfs">
@@ -75,7 +75,7 @@ export default function Graph() {
                     <Tabs.Tab code={BFSJS} language="javascript" />
                     <Tabs.Tab code={BFSJAVA} language="java" />
                     <Tabs.Tab code={BFSCPP} language="cpp" />
-                    <Tabs.Tab code={BFSRuby} language="ruby" />
+                    <Tabs.Tab code={BFSRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-dijkstra">
@@ -84,7 +84,7 @@ export default function Graph() {
                     <Tabs.Tab code={DijkstraJS} language="javascript" />
                     <Tabs.Tab code={DijkstraJAVA} language="java" />
                     <Tabs.Tab code={DijkstraCPP} language="cpp" />
-                    <Tabs.Tab code={DijkstraRuby} language="ruby" />
+                    <Tabs.Tab code={DijkstraRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-bellman-ford">
@@ -93,7 +93,7 @@ export default function Graph() {
                     <Tabs.Tab code={BellmanFordJS} language="javascript" />
                     <Tabs.Tab code={BellmanFordJAVA} language="java" />
                     <Tabs.Tab code={BellmanFordCPP} language="cpp" />
-                    <Tabs.Tab code={BellmanFordRuby} language="ruby" />
+                    <Tabs.Tab code={BellmanFordRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-kahn">
@@ -102,7 +102,7 @@ export default function Graph() {
                     <Tabs.Tab code={KahnJS} language="javascript" />
                     <Tabs.Tab code={KahnJAVA} language="java" />
                     <Tabs.Tab code={KahnCPP} language="cpp" />
-                    <Tabs.Tab code={KahnRuby} language="ruby" />
+                    <Tabs.Tab code={KahnRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-kruskal">
@@ -111,7 +111,7 @@ export default function Graph() {
                     <Tabs.Tab code={KruskalJS} language="javascript" />
                     <Tabs.Tab code={KruskalJAVA} language="java" />
                     <Tabs.Tab code={KruskalCPP} language="cpp" />
-                    <Tabs.Tab code={KruskalRuby} language="ruby" />
+                    <Tabs.Tab code={KruskalRUBY} language="ruby" />
                 </Tabs>
             </section>
             <section id="graph-prim">
@@ -120,7 +120,7 @@ export default function Graph() {
                     <Tabs.Tab code={PrimJS} language="javascript" />
                     <Tabs.Tab code={PrimJAVA} language="java" />
                     <Tabs.Tab code={PrimCPP} language="cpp" />
-                    <Tabs.Tab code={PrimRuby} language="ruby" />
+                    <Tabs.Tab code={PrimRUBY} language="ruby" />
                 </Tabs>
             </section>
         </div>
