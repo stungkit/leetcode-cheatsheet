@@ -8,18 +8,17 @@
         "types": ["node", "vite/client"],
 
         // Paths
-        "baseUrl": "./",
         "paths": {
-            "@/*": ["src/*"],
-            "@code/*": ["src/code/*"],
-            "@components/*": ["src/components/*"],
-            "@fonts/*": ["src/fonts/*"],
-            "@hooks/*": ["src/hooks/*"],
-            "@icons/*": ["src/icons/*"],
-            "@images/*": ["src/images/*"],
-            "@styles/*": ["src/styles/*"],
-            "@sections/*": ["src/sections/*"],
-            "@utils/*": ["src/utils/*"]
+            "@/*": ["./src/*"],
+            "@code/*": ["./src/code/*"],
+            "@components/*": ["./src/components/*"],
+            "@fonts/*": ["./src/fonts/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@icons/*": ["./src/icons/*"],
+            "@images/*": ["./src/images/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@sections/*": ["./src/sections/*"],
+            "@utils/*": ["./src/utils/*"]
         },
 
         // Bundler
