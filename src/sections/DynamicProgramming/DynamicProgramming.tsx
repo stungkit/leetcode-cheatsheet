@@ -22,6 +22,10 @@ import TopDownRUBY from '@code/ruby/dynamic_programming/top_down.rb?raw'
 import BottomUpRUBY from '@code/ruby/dynamic_programming/bottom_up.rb?raw'
 import KadaneRUBY from '@code/ruby/dynamic_programming/kadane.rb?raw'
 
+import TopDownLUA from '@code/lua/dynamic_programming/top_down.lua?raw'
+import BottomUpLUA from '@code/lua/dynamic_programming/bottom_up.lua?raw'
+import KadaneLUA from '@code/lua/dynamic_programming/kadane.lua?raw'
+
 export default function DynamicProgramming() {
     return (
         <div className={styles.container}>
@@ -33,6 +37,7 @@ export default function DynamicProgramming() {
                     <Tabs.Tab code={TopDownJAVA} language="java" />
                     <Tabs.Tab code={TopDownCPP} language="cpp" />
                     <Tabs.Tab code={TopDownRUBY} language="ruby" />
+                    <Tabs.Tab code={TopDownLUA} language="lua" />
                 </Tabs>
             </section>
             <section id="dp-bottom-up">
@@ -42,6 +47,7 @@ export default function DynamicProgramming() {
                     <Tabs.Tab code={BottomUpJAVA} language="java" />
                     <Tabs.Tab code={BottomUpCPP} language="cpp" />
                     <Tabs.Tab code={BottomUpRUBY} language="ruby" />
+                    <Tabs.Tab code={BottomUpLUA} language="lua" />
                 </Tabs>
             </section>
             <section id="dp-kadane">
@@ -51,6 +57,7 @@ export default function DynamicProgramming() {
                     <Tabs.Tab code={KadaneJAVA} language="java" />
                     <Tabs.Tab code={KadaneCPP} language="cpp" />
                     <Tabs.Tab code={KadaneRUBY} language="ruby" />
+                    <Tabs.Tab code={KadaneLUA} language="lua" />
                 </Tabs>
             </section>
         </div>

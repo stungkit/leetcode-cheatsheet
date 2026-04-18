@@ -22,6 +22,10 @@ import DFSrecursiveRUBY from '@code/ruby/binary_tree/dfs_recursive.rb?raw'
 import DFSiterativeRUBY from '@code/ruby/binary_tree/dfs_iterative.rb?raw'
 import BFSRUBY from '@code/ruby/binary_tree/bfs.rb?raw'
 
+import DFSrecursiveLUA from '@code/lua/binary_tree/dfs_recursive.lua?raw'
+import DFSiterativeLUA from '@code/lua/binary_tree/dfs_iterative.lua?raw'
+import BFSLUA from '@code/lua/binary_tree/bfs.lua?raw'
+
 export default function BinaryTree() {
     return (
         <div className={styles.container}>
@@ -33,6 +37,7 @@ export default function BinaryTree() {
                     <Tabs.Tab code={DFSrecursiveJAVA} language="java" />
                     <Tabs.Tab code={DFSrecursiveCPP} language="cpp" />
                     <Tabs.Tab code={DFSrecursiveRUBY} language="ruby" />
+                    <Tabs.Tab code={DFSrecursiveLUA} language="lua" />
                 </Tabs>
             </section>
             <section id="tree-dfs-iterative">
@@ -42,6 +47,7 @@ export default function BinaryTree() {
                     <Tabs.Tab code={DFSiterativeJAVA} language="java" />
                     <Tabs.Tab code={DFSiterativeCPP} language="cpp" />
                     <Tabs.Tab code={DFSiterativeRUBY} language="ruby" />
+                    <Tabs.Tab code={DFSiterativeLUA} language="lua" />
                 </Tabs>
             </section>
             <section id="tree-bfs">
@@ -51,6 +57,7 @@ export default function BinaryTree() {
                     <Tabs.Tab code={BFSJAVA} language="java" />
                     <Tabs.Tab code={BFSCPP} language="cpp" />
                     <Tabs.Tab code={BFSRUBY} language="ruby" />
+                    <Tabs.Tab code={BFSLUA} language="lua" />
                 </Tabs>
             </section>
         </div>

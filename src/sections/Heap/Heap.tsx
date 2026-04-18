@@ -7,6 +7,7 @@ import FindTopKElementsJS from '@code/javascript/heap/find_top_k_elements.js?raw
 import FindTopKElementsJAVA from '@code/java/heap/find_top_k_elements.java?raw'
 import FindTopKElementsCPP from '@code/cpp/heap/find_top_k_elements.cpp?raw'
 import FindTopKElementsRUBY from '@code/ruby/heap/find_top_k_elements.rb?raw'
+import FindTopKElementsLUA from '@code/lua/heap/find_top_k_elements.lua?raw'
 
 export default function Heap() {
     return (
@@ -19,6 +20,7 @@ export default function Heap() {
                     <Tabs.Tab code={FindTopKElementsJAVA} language="java" />
                     <Tabs.Tab code={FindTopKElementsCPP} language="cpp" />
                     <Tabs.Tab code={FindTopKElementsRUBY} language="ruby" />
+                    <Tabs.Tab code={FindTopKElementsLUA} language="lua" />
                 </Tabs>
             </section>
         </div>

@@ -17,6 +17,9 @@ import MonotonicDecreasingStackCPP from '@code/cpp/stack/monotonic_decreasing.cp
 import MonotonicIncreasingStackRUBY from '@code/ruby/stack/monotonic_increasing.rb?raw'
 import MonotonicDecreasingStackRUBY from '@code/ruby/stack/monotonic_decreasing.rb?raw'
 
+import MonotonicIncreasingStackLUA from '@code/lua/stack/monotonic_increasing.lua?raw'
+import MonotonicDecreasingStackLUA from '@code/lua/stack/monotonic_decreasing.lua?raw'
+
 export default function Stack() {
     return (
         <div className={styles.container}>
@@ -28,6 +31,7 @@ export default function Stack() {
                     <Tabs.Tab code={MonotonicIncreasingStackJAVA} language="java" />
                     <Tabs.Tab code={MonotonicIncreasingStackCPP} language="cpp" />
                     <Tabs.Tab code={MonotonicIncreasingStackRUBY} language="ruby" />
+                    <Tabs.Tab code={MonotonicIncreasingStackLUA} language="lua" />
                 </Tabs>
             </section>
             <section id="stack-monotonic-decreasing">
@@ -37,6 +41,7 @@ export default function Stack() {
                     <Tabs.Tab code={MonotonicDecreasingStackJAVA} language="java" />
                     <Tabs.Tab code={MonotonicDecreasingStackCPP} language="cpp" />
                     <Tabs.Tab code={MonotonicDecreasingStackRUBY} language="ruby" />
+                    <Tabs.Tab code={MonotonicDecreasingStackLUA} language="lua" />
                 </Tabs>
             </section>
         </div>

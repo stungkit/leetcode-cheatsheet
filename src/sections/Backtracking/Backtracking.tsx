@@ -7,6 +7,7 @@ import BacktrackingJS from '@code/javascript/backtracking/backtracking.js?raw'
 import BacktrackingJAVA from '@code/java/backtracking/backtracking.java?raw'
 import BacktrackingCPP from '@code/cpp/backtracking/backtracking.cpp?raw'
 import BacktrackingRUBY from '@code/ruby/backtracking/backtracking.rb?raw'
+import BacktrackingLUA from '@code/lua/backtracking/backtracking.lua?raw'
 
 export default function Backtracking() {
     return (
@@ -19,6 +20,7 @@ export default function Backtracking() {
                     <Tabs.Tab code={BacktrackingJAVA} language="java" />
                     <Tabs.Tab code={BacktrackingCPP} language="cpp" />
                     <Tabs.Tab code={BacktrackingRUBY} language="ruby" />
+                    <Tabs.Tab code={BacktrackingLUA} language="lua" />
                 </Tabs>
             </section>
         </div>

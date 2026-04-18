@@ -9,6 +9,7 @@ import CopyButton from '@components/CopyButton/CopyButton'
 import SvgPython from '@icons/Python'
 import SvgJavascript from '@/icons/Javascript'
 import SvgCpp from '@icons/Cpp'
+import SvgLua from '@icons/Lua'
 import SvgJava from '@/icons/Java'
 import SvgRuby from '@/icons/Ruby'
 
@@ -19,15 +20,16 @@ interface TabsProps {
 
 interface TabProps {
     code: string
-    language: 'python' | 'javascript' | 'java' | 'cpp' | 'ruby'
+    language: 'python' | 'javascript' | 'java' | 'cpp' | 'ruby' | 'lua'
 }
 
 const LANGUAGE_ICONS = {
     python: SvgPython,
     javascript: SvgJavascript,
-    cpp: SvgCpp,
     java: SvgJava,
+    cpp: SvgCpp,
     ruby: SvgRuby,
+    lua: SvgLua
 }
 
 export default function Tabs({ title, children }: TabsProps) {
@@ -37,10 +39,9 @@ export default function Tabs({ title, children }: TabsProps) {
         (tab) => tab.props.language === selectedLanguage
     )
     let code = ''
-    try{
-     code = tabs[activeIndex].props.code
-    }catch(e)
-    {
+    try {
+        code = tabs[activeIndex].props.code
+    } catch (e) {
         // debugger
     }
     const language = tabs[activeIndex].props.language
