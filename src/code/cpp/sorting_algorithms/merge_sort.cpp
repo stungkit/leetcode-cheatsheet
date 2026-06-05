@@ -5,20 +5,21 @@ using namespace std;
 
 vector<int> Merge(vector<int>& left, vector<int>& right) {
     vector<int> output;
+    size_t i = 0;
+    size_t j = 0;
 
-    while (!left.empty() && !right.empty()) {
-        int min_num = (left[0] <= right[0]) ? left[0] : right[0];
-        output.push_back(min_num);
-
-        if (left[0] <= right[0]) {
-            left.erase(left.begin());
+    while (i < left.size() && j < right.size()) {
+        if (left[i] <= right[j]) {
+            output.push_back(left[i]);
+            i++;
         } else {
-            right.erase(right.begin());
+            output.push_back(right[j]);
+            j++;
         }
     }
 
-    output.insert(output.end(), left.begin(), left.end());
-    output.insert(output.end(), right.begin(), right.end());
+    output.insert(output.end(), left.begin() + i, left.end());
+    output.insert(output.end(), right.begin() + j, right.end());
 
     return output;
 }

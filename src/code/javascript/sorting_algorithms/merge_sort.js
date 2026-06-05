@@ -14,14 +14,21 @@ const mergeSort = (arr) => {
 
 const merge = (left, right) => {
     const output = []
+    let i = 0
+    let j = 0
 
-    while (left.length && right.length) {
-        const minNum = left[0] <= right[0] ? left.shift() : right.shift()
-        output.push(minNum)
+    while (i < left.length && j < right.length) {
+        if (left[i] <= right[j]) {
+            output.push(left[i])
+            i += 1
+        } else {
+            output.push(right[j])
+            j += 1
+        }
     }
 
-    output.push(...left)
-    output.push(...right)
+    output.push(...left.slice(i))
+    output.push(...right.slice(j))
 
     return output
 }

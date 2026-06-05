@@ -12,12 +12,17 @@ def merge_sort(arr: list) -> list:
 
 def merge(left: list, right: list) -> list:
     output = []
+    i = j = 0
 
-    while left and right:
-        min_num = left.pop(0) if left[0] <= right[0] else right.pop(0)
-        output.append(min_num)
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            output.append(left[i])
+            i += 1
+        else:
+            output.append(right[j])
+            j += 1
 
-    output.extend(left)
-    output.extend(right)
+    output.extend(left[i:])
+    output.extend(right[j:])
 
     return output
