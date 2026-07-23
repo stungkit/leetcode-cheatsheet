@@ -17,7 +17,3 @@ To build the LeetCode Cheatsheet project, follow these steps:
 ```bash
 $ npm run build
 ```   
-
-## License
-
-This project is released under the GNU GPL License - see the [LICENSE](LICENSE) file for details
